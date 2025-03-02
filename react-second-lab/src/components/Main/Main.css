@@ -1,0 +1,24 @@
+.main-container {
+  text-align: center;
+  margin: 20px;
+}
+.cards-wrapper {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.main-container h1{
+  margin-top: -20px;
+  display: inline-block;
+  font-size: 28px;
+  font-weight: 500;
+  width: 250px;
+  height: 30px;
+  background-color: #07004a;
+  box-shadow: 0 0 7px 3px #07004a80;
+  border-radius: 70px;
+  color: #fff;
+  padding: 10px 20px;
+}
