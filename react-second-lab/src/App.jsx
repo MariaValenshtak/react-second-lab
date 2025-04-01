@@ -1,13 +1,14 @@
 import React from "react";
 import Main from "./components/Main/Main";
+import { CssBaseline } from "@mui/material";
 import { cardsData } from "./data";
-import "./App.css";
 
 const App = () => {
   return (
-    <div>
+    <>
+      <CssBaseline />
       <Main cards={cardsData} />
-    </div>
+    </>
   );
 };
 

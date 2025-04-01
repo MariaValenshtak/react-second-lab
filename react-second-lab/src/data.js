@@ -8,7 +8,7 @@ export const cardsData = [
     {
       id: 2,
       title: "Місто вночі",
-      description: "Нічне місто з яскравими вогнями та неймовірною атмосферою.",
+      description: "Нічне місто з неймовірною атмосферою.",
       image: "https://i.pinimg.com/736x/0f/fb/4b/0ffb4b651ea1c4738cb68191a791cf77.jpg"
     },
     {
@@ -26,7 +26,7 @@ export const cardsData = [
     {
       id: 5,
       title: "Захід сонця",
-      description: "Романтичний захід сонця, що фарбує небо у дивовижні кольори.",
+      description: "Романтичний захід сонця, що фарбує небо у кольори.",
       image: "https://i.pinimg.com/736x/62/6c/e7/626ce7034b327416bc430765b4a2a42b.jpg"
     }
   ];
