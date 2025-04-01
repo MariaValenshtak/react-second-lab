@@ -21,12 +21,12 @@ const Main = ({ cards }) => {
       >
         Галерея карток
       </Typography>
-      {/* Контейнер для карток */}
+      {}
       <Grid 
         container 
         spacing={3} 
-        justifyContent="center"  // Центрує картки по горизонталі
-        alignItems="center"      // Центрує по вертикалі (не обов’язково, але корисно)
+        justifyContent="center"  
+        alignItems="center"     
       >
         {cards.map((card) => (
           <Grid item key={card.id}>
